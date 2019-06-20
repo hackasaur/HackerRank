@@ -6,4 +6,4 @@ def factorial(n):
         return result
 
 n = int(input("Enter a number:"))
-print("%d"%(factorial(n)))
+print("%d! = %d"%(n,factorial(n)))
